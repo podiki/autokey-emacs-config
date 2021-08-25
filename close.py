@@ -1,5 +1,5 @@
 # set the actions
-hotkey = '<super>+w'
+hotkey = '<ctrl>+x'
 newkey = '<ctrl>+w'
 
 # save the hotkey for pasthrough 

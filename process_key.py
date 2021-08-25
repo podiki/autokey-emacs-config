@@ -11,7 +11,7 @@ s = engine.get_return_value()
 #logging.debug(window.get_active_class())
 
 #if re.match('^((?!.*Emacs).)*$', window.get_active_class()):
-if re.match('.*(Emacs|gnome-terminal|konsole)', window.get_active_class()):
+if re.match('.*(emacs|kitty|termite|gnome-terminal|konsole)', window.get_active_class()):
     #logging.debug('passing through (%s) for %s' % (h, window.get_active_class()))
     #print('Ignored')
     keyboard.send_keys(h)

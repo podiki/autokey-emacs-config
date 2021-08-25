@@ -1,7 +1,7 @@
 # Enter script code
 import re
 
-if re.match('.*(Emacs|Gnome-terminal|konsole)', window.get_active_class()):
+if re.match('.*(Emacs|termite|Gnome-terminal|konsole)', window.get_active_class()):
     keyboard.send_keys('<alt>+d')
 else:
     # we need to select to the end and del
